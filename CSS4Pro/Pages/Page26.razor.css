@@ -1,0 +1,19 @@
+﻿
+:root {
+    --main-font: Helvetica, Arial, sans-serif;
+    --brand-color: #369;
+    --back-color: #808080;
+
+    font-size: calc(0.5em + 1vw)
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+p {
+    font-family: var(--main-font);
+    color: var(--brand-color, blue);
+    background-color: var(--back-color, grey);
+    padding: 10px 0 5px 10px;
+}
